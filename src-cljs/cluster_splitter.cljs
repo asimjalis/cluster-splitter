@@ -37,12 +37,25 @@
 (deftest test-something
   (is (= 3 3)))
 
+(defn run-tests []
+  (t/test-ns 'cluster_splitter))
+
 (defn str->int 
   "Convert string to int or return default."
   [default x] 
   (let [x (js/parseInt x)] 
     (if (js/isNaN x) default x)))
 
+(deftest ^:export test-str->int
+  (is (= 10 (str->int 4 "10")))
+  (is (= -1 (str->int 4 "-1")))
+  (is (=  0 (str->int 4 "0")))
+  (is (=  4 (str->int 4 "hello")))
+  (is (=  4 (str->int 4 "")))
+  (is (=  1 (str->int 4 "1.0")))
+  (is (=  0 (str->int 4 "0.9")))
+  (is (=  0 (str->int 4 "0.001"))))
+  
 (defn html->output [html] 
   (.html (js/$ "#output") html))
 
