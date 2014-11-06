@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Cluster Splitter</title>
+<style>
+  body { font-family: "Courier" }
+  input[type="number"] { width: 50px; }
+</style>
+</head>
+<body>
+<!-- FORM -->
+<form>
+  <h1>Cluster Splitter</h1>
+  <b>Cluster Size</b> <br>
+  <input type="radio" name="clusterSize" value="4" checked>4
+  <input type="radio" name="clusterSize" value="5">5<br>
+  <br> 
+
+  <b>Cluster IPs</b> <br>
+  <textarea rows=10 cols=40 name="ipText"></textarea>
+  <br> <br>
+
+  <input type="button" onClick="cluster_splitter.main();return false" value="Split">
+  <br> <br>
+  <div id="output"></div>
+
+  <!--DEBUG START-->
+  <input type="hidden" name="debug">
+  <!--DEBUG END-->
+
+</form>
+<!-- Scripts: Use local version when no wifi -->
+<!-- <script src="js/jquery-1.9.1-min.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" defer></script>
+
+<!-- Scripts: Closure Compiler Includes -->
+<!-- <script type="text/javascript" src="out/goog/base.js"></script> -->
+<script type="text/javascript" src="cluster_splitter.js" defer></script>
+<!-- <script type="text/javascript">goog.require('cluster_splitter');</script>  -->
+</body>
+</html>
