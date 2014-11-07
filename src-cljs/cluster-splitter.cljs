@@ -15,10 +15,7 @@
       ))
 
 ;[Todo]
-; Add tests for the ip->machine->cluster->str process
-; Rename machine-seq->4-or-5-cluster-seq 
 ; Publish on real endpoint
-; Use - in name instead of _
 ; Add [json-html "0.2.3"] (use 'json-html.core) https://github.com/yogthos/json-html
 
 (defn debug-with-repl []
@@ -72,20 +69,6 @@
   ["1.1.1.1"]           ["hi 1.1.1.1 random text 2.2.2"]
   ["1.1.1.1" "2.2.2.2"] ["hi 1.1.1.1 random text 2.2.2.2"])
 
-(defn cluster-seq->str [cluster-seq]
-  (->> cluster-seq 
-    (map (fn [pairs] (->> pairs (map #(join "\t" %)) (join "\n")))) 
-    (map-indexed #(str "Cluster " (inc %) "\n" %2)) (join "\n\n")))
-
-(defn-test cluster-seq->str 
-  (str "Cluster 1\n" "a\tb") 
-    [ [ [ ["a" "b"] ] ] ]
-  (str "Cluster 1\n" "a\tb\n" "c\td") 
-    [ [ [ ["a" "b"] ["c" "d"] ] ] ]
-  (str "Cluster 1\n" "a\tb" "\n\n" "Cluster 2\n" "c\td") 
-    [ [ [ ["a" "b"] ] [ ["c" "d"] ] ] ]
-  )
-
 (defn ip-seq->machine-seq [ip-seq]
   (->> ip-seq (partition 2) (map vec)))
 
@@ -94,6 +77,10 @@
 
 (defn merge-cluster-seqs [seq1 seq2]
   (map #(into %1 %2) seq1 seq2))
+
+(defn-test merge-cluster-seqs 
+  [ [:a :d] [:b :e] [:c :f] ] [ [[:a] [:b] [:c]] [[:d] [:e] [:f]] ]
+  )
 
 (defn machine-seq->4-cluster-seq [machine-seq]
   (->> machine-seq (machine-seq->cluster-seq 4)))
@@ -115,6 +102,20 @@
   [ [ :a :b :c :d ]       [ :e :f :g :h ] ] [ 4 [ :a :b :c :d :e :f :g :h ] ]
   [ [ :x :a :b :c :d ]                    ] [ 5 [ :x    :a :b :c :d ] ]
   [ [ :x :a :b :c :d ] [ :y :e :f :g :h ] ] [ 5 [ :x :y :a :b :c :d :e :f :g :h ] ]
+  )
+
+(defn cluster-seq->str [cluster-seq]
+  (->> cluster-seq 
+    (map (fn [pairs] (->> pairs (map #(join "\t" %)) (join "\n")))) 
+    (map-indexed #(str "Cluster " (inc %) "\n" %2)) (join "\n\n")))
+
+(defn-test cluster-seq->str 
+  (str "Cluster 1\n" "a\tb") 
+    [ [ [ ["a" "b"] ] ] ]
+  (str "Cluster 1\n" "a\tb\n" "c\td") 
+    [ [ [ ["a" "b"] ["c" "d"] ] ] ]
+  (str "Cluster 1\n" "a\tb" "\n\n" "Cluster 2\n" "c\td") 
+    [ [ [ ["a" "b"] ] [ ["c" "d"] ] ] ]
   )
 
 (defn-let input-map->cluster-html [input-map]
