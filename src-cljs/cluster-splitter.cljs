@@ -14,8 +14,8 @@
       :refer (is deftest with-test run-tests testing test-var)]
       ))
 
-;[Todo]
-; Publish on real endpoint
+; [Todo]
+; Set up deploy JS script: cluster-splitter.html -> index.html, js->js
 ; Add [json-html "0.2.3"] (use 'json-html.core) https://github.com/yogthos/json-html
 
 (defn debug-with-repl []
@@ -75,22 +75,62 @@
 (defn machine-seq->cluster-seq [machines-per-cluster machine-seq]
   (->> machine-seq (partition machines-per-cluster) (map vec)))
 
-(defn merge-cluster-seqs [seq1 seq2]
-  (map #(into %1 %2) seq1 seq2))
+(defn merge-cluster-seqs 
+  "Merge two cluster seqs. If either cluster seq is empty then returns the other unchanged."
+  [seq1 seq2]
+  (cond (empty? seq1) seq2
+        (empty? seq2) seq1
+        :else (map #(into %1 %2) seq1 seq2)))
 
 (defn-test merge-cluster-seqs 
   [ [:a :d] [:b :e] [:c :f] ] [ [[:a] [:b] [:c]] [[:d] [:e] [:f]] ]
+  [ [:a   ] [:b   ] [:c   ] ] [ [[:a] [:b] [:c]] [              ] ]
+  [ [   :d] [   :e] [   :f] ] [ [              ] [[:d] [:e] [:f]] ]
   )
 
-(defn machine-seq->4-cluster-seq [machine-seq]
-  (->> machine-seq (machine-seq->cluster-seq 4)))
+(def L1 "Lion     ")
+(def S1 "Elephant ")
+(def S2 "Tiger    ")
+(def S3 "Horse    ")
+(def S4 "Monkey   ")
+
+(def LARGE_MACHINE_NAMES [L1])
+(def SMALL_MACHINE_NAMES [S1 S2 S3 S4])
+
+(defn-let machine-seq-prepend-names [names machine-seq]
+  names-cycle (->> names cycle)
+  prepend-item-to-seq #(vec (cons %1 %2))
+  _ (map prepend-item-to-seq names-cycle machine-seq))
+
+(defn-test machine-seq-prepend-names 
+  [ [:x :1] [:x :2] [:x :3] ]   [ [:x] [[:1] [:2] [:3]] ])
+
+(defn-let machine-seq->4-cluster-seq [machine-seq]
+  cluster-seq (->> machine-seq 
+                   (machine-seq-prepend-names SMALL_MACHINE_NAMES)
+                   (machine-seq->cluster-seq 4)))
 
 (defn-let machine-seq->5-cluster-seq [machine-seq]
   machine-count (count machine-seq)
   large-machine-count (/ machine-count 5)
-  large-cluster-seq (->> machine-seq (take large-machine-count) (machine-seq->cluster-seq 1))
-  small-cluster-seq (->> machine-seq (drop large-machine-count) (machine-seq->cluster-seq 4))
+  large-machine-seq (->> machine-seq 
+                         (take large-machine-count) 
+                         (machine-seq-prepend-names LARGE_MACHINE_NAMES))
+  small-machine-seq (->> machine-seq 
+                         (drop large-machine-count) 
+                         (machine-seq-prepend-names SMALL_MACHINE_NAMES))
+  large-cluster-seq (->> large-machine-seq (machine-seq->cluster-seq 1))
+  small-cluster-seq (->> small-machine-seq (machine-seq->cluster-seq 4))
   cluster-seq (merge-cluster-seqs large-cluster-seq small-cluster-seq))
+
+(defn-test machine-seq->5-cluster-seq 
+  [[[L1 0 1] [S1 4 5]   [S2 6 7]   [S3 8 9]   [S4 10 11]]
+   [[L1 2 3] [S1 12 13] [S2 14 15] [S3 16 17] [S4 18 19]]]
+  [(->> 20 range ip-seq->machine-seq)])
+
+(defn-test machine-seq->4-cluster-seq 
+  [[[S1 0 1] [S2 2 3] [S3 4 5] [S4 6 7]]]
+  [(->> 8 range ip-seq->machine-seq)])
 
 (defn machine-seq->4-or-5-cluster-seq [machines-per-cluster machine-seq]
   (if (= 5 machines-per-cluster) 
@@ -98,10 +138,8 @@
      (machine-seq->4-cluster-seq machine-seq)))
 
 (defn-test machine-seq->4-or-5-cluster-seq
-  [ [ :a :b :c :d ]                       ] [ 4 [ :a :b :c :d ] ]
-  [ [ :a :b :c :d ]       [ :e :f :g :h ] ] [ 4 [ :a :b :c :d :e :f :g :h ] ]
-  [ [ :x :a :b :c :d ]                    ] [ 5 [ :x    :a :b :c :d ] ]
-  [ [ :x :a :b :c :d ] [ :y :e :f :g :h ] ] [ 5 [ :x :y :a :b :c :d :e :f :g :h ] ]
+  [ [         [S1 :a] [S2 :b] [S3 :c] [S4 :d] ] ] [ 4 [      [:a] [:b] [:c] [:d] ] ]
+  [ [ [L1 :x] [S1 :a] [S2 :b] [S3 :c] [S4 :d] ] ] [ 5 [ [:x] [:a] [:b] [:c] [:d] ] ]
   )
 
 (defn cluster-seq->str [cluster-seq]
