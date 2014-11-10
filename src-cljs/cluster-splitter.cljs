@@ -14,10 +14,6 @@
       :refer (is deftest with-test run-tests testing test-var)]
       ))
 
-; [Todo]
-; Set up deploy JS script: cluster-splitter.html -> index.html, js->js
-; Add [json-html "0.2.3"] (use 'json-html.core) https://github.com/yogthos/json-html
-
 (defn debug-with-repl []
   (repl/connect "http://localhost:9000/repl"))
 
