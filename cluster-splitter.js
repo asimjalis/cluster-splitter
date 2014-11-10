@@ -38678,16 +38678,16 @@ cluster_splitter.console_log = function() {
     return console_log__delegate.call(this, args);
   };
   console_log.cljs$lang$maxFixedArity = 0;
-  console_log.cljs$lang$applyTo = function(arglist__9199) {
-    var args = cljs.core.seq(arglist__9199);
+  console_log.cljs$lang$applyTo = function(arglist__23509) {
+    var args = cljs.core.seq(arglist__23509);
     return console_log__delegate(args);
   };
   console_log.cljs$core$IFn$_invoke$arity$variadic = console_log__delegate;
   return console_log;
 }();
 cluster_splitter.form__GT_map = function form__GT_map() {
-  return cljs.core.apply.call(null, cljs.core.merge, clojure.walk.keywordize_keys.call(null, cljs.core.map.call(null, function(p1__9200_SHARP_) {
-    return cljs.core.PersistentHashMap.fromArrays([p1__9200_SHARP_.call(null, "name")], [p1__9200_SHARP_.call(null, "value")]);
+  return cljs.core.apply.call(null, cljs.core.merge, clojure.walk.keywordize_keys.call(null, cljs.core.map.call(null, function(p1__23510_SHARP_) {
+    return cljs.core.PersistentHashMap.fromArrays([p1__23510_SHARP_.call(null, "name")], [p1__23510_SHARP_.call(null, "value")]);
   }, cljs.core.js__GT_clj.call(null, $("form").serializeArray()))));
 };
 cluster_splitter.reload = function reload() {
@@ -38706,327 +38706,327 @@ cluster_splitter.str__GT_int = function str__GT_int(default$, x) {
     return x__$1;
   }
 };
-cluster_splitter.G__9201 = function G__9201() {
-  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__9201);
+cluster_splitter.G__23511 = function G__23511() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23511);
 };
-cluster_splitter.G__9201 = cljs.core.with_meta.call(null, cluster_splitter.G__9201, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__9201", "cluster-splitter/G__9201", -1869564473, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__9201_test(test_ctx__4704__auto__) {
+cluster_splitter.G__23511 = cljs.core.with_meta.call(null, cluster_splitter.G__23511, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23511", "cluster-splitter/G__23511", -1747859994, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23511_test(test_ctx__4704__auto__) {
   var _test_ctx = test_ctx__4704__auto__;
   var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
-  var _STAR_test_ctx_STAR_9228 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  var _STAR_test_ctx_STAR_23538 = cemerick.cljs.test._STAR_test_ctx_STAR_;
   try {
     cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
     try {
-      var _test_ctx_9254__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9255__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9254__$1)));
-      var _STAR_test_ctx_STAR_9230_9256 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23564__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23565__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23564__$1)));
+      var _STAR_test_ctx_STAR_23540_23566 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9255__$1) ? null : _test_ctx_9254__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23565__$1) ? null : _test_ctx_23564__$1;
         try {
           try {
-            var values__4639__auto___9257 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "10")), 10);
-            var result__4640__auto___9258 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9257);
-            if (result__4640__auto___9258 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23567 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "10")), 10);
+            var result__4640__auto___23568 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23567);
+            if (result__4640__auto___23568 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9258)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9254__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9257), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23568)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23564__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23567), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9254__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9257)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23564__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23567)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9232) {
-            if (e9232 instanceof Error) {
-              var t__4676__auto___9259 = e9232;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9254__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9259, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23542) {
+            if (e23542 instanceof Error) {
+              var t__4676__auto___23569 = e23542;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23564__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 10, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "10")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23569, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9232;
+              throw e23542;
             }
           }
-        } catch (e9231) {
-          if (e9231 instanceof Error) {
-            var e__4620__auto___9260 = e9231;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9255__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9254__$1, e__4620__auto___9260);
+        } catch (e23541) {
+          if (e23541 instanceof Error) {
+            var e__4620__auto___23570 = e23541;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23565__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23564__$1, e__4620__auto___23570);
             } else {
-              throw e__4620__auto___9260;
+              throw e__4620__auto___23570;
             }
           } else {
-            throw e9231;
+            throw e23541;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9230_9256;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23540_23566;
       }
-      var _test_ctx_9261__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9262__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9261__$1)));
-      var _STAR_test_ctx_STAR_9233_9263 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23571__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23572__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23571__$1)));
+      var _STAR_test_ctx_STAR_23543_23573 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9262__$1) ? null : _test_ctx_9261__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23572__$1) ? null : _test_ctx_23571__$1;
         try {
           try {
-            var values__4639__auto___9264 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "-1")), -1);
-            var result__4640__auto___9265 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9264);
-            if (result__4640__auto___9265 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23574 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "-1")), -1);
+            var result__4640__auto___23575 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23574);
+            if (result__4640__auto___23575 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9265)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9261__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9264), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23575)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23571__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23574), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9261__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9264)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23571__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23574)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9235) {
-            if (e9235 instanceof Error) {
-              var t__4676__auto___9266 = e9235;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9261__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9266, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23545) {
+            if (e23545 instanceof Error) {
+              var t__4676__auto___23576 = e23545;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23571__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), -1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "-1")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23576, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9235;
+              throw e23545;
             }
           }
-        } catch (e9234) {
-          if (e9234 instanceof Error) {
-            var e__4620__auto___9267 = e9234;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9262__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9261__$1, e__4620__auto___9267);
+        } catch (e23544) {
+          if (e23544 instanceof Error) {
+            var e__4620__auto___23577 = e23544;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23572__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23571__$1, e__4620__auto___23577);
             } else {
-              throw e__4620__auto___9267;
+              throw e__4620__auto___23577;
             }
           } else {
-            throw e9234;
+            throw e23544;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9233_9263;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23543_23573;
       }
-      var _test_ctx_9268__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9269__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9268__$1)));
-      var _STAR_test_ctx_STAR_9236_9270 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23578__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23579__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23578__$1)));
+      var _STAR_test_ctx_STAR_23546_23580 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9269__$1) ? null : _test_ctx_9268__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23579__$1) ? null : _test_ctx_23578__$1;
         try {
           try {
-            var values__4639__auto___9271 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "0")), 0);
-            var result__4640__auto___9272 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9271);
-            if (result__4640__auto___9272 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23581 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "0")), 0);
+            var result__4640__auto___23582 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23581);
+            if (result__4640__auto___23582 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9272)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9268__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9271), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23582)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23578__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23581), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9268__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9271)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23578__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23581)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9238) {
-            if (e9238 instanceof Error) {
-              var t__4676__auto___9273 = e9238;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9268__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9273, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23548) {
+            if (e23548 instanceof Error) {
+              var t__4676__auto___23583 = e23548;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23578__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 0, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23583, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9238;
+              throw e23548;
             }
           }
-        } catch (e9237) {
-          if (e9237 instanceof Error) {
-            var e__4620__auto___9274 = e9237;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9269__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9268__$1, e__4620__auto___9274);
+        } catch (e23547) {
+          if (e23547 instanceof Error) {
+            var e__4620__auto___23584 = e23547;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23579__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23578__$1, e__4620__auto___23584);
             } else {
-              throw e__4620__auto___9274;
+              throw e__4620__auto___23584;
             }
           } else {
-            throw e9237;
+            throw e23547;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9236_9270;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23546_23580;
       }
-      var _test_ctx_9275__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9276__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9275__$1)));
-      var _STAR_test_ctx_STAR_9239_9277 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23585__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23586__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23585__$1)));
+      var _STAR_test_ctx_STAR_23549_23587 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9276__$1) ? null : _test_ctx_9275__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23586__$1) ? null : _test_ctx_23585__$1;
         try {
           try {
-            var values__4639__auto___9278 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "hello")), 4);
-            var result__4640__auto___9279 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9278);
-            if (result__4640__auto___9279 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23588 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "hello")), 4);
+            var result__4640__auto___23589 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23588);
+            if (result__4640__auto___23589 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9279)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9275__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9278), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23589)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23585__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23588), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9275__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9278)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23585__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23588)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9241) {
-            if (e9241 instanceof Error) {
-              var t__4676__auto___9280 = e9241;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9275__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9280, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23551) {
+            if (e23551 instanceof Error) {
+              var t__4676__auto___23590 = e23551;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23585__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "hello")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23590, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9241;
+              throw e23551;
             }
           }
-        } catch (e9240) {
-          if (e9240 instanceof Error) {
-            var e__4620__auto___9281 = e9240;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9276__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9275__$1, e__4620__auto___9281);
+        } catch (e23550) {
+          if (e23550 instanceof Error) {
+            var e__4620__auto___23591 = e23550;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23586__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23585__$1, e__4620__auto___23591);
             } else {
-              throw e__4620__auto___9281;
+              throw e__4620__auto___23591;
             }
           } else {
-            throw e9240;
+            throw e23550;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9239_9277;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23549_23587;
       }
-      var _test_ctx_9282__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9283__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9282__$1)));
-      var _STAR_test_ctx_STAR_9242_9284 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23592__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23593__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23592__$1)));
+      var _STAR_test_ctx_STAR_23552_23594 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9283__$1) ? null : _test_ctx_9282__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23593__$1) ? null : _test_ctx_23592__$1;
         try {
           try {
-            var values__4639__auto___9285 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "")), 4);
-            var result__4640__auto___9286 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9285);
-            if (result__4640__auto___9286 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23595 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "")), 4);
+            var result__4640__auto___23596 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23595);
+            if (result__4640__auto___23596 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9286)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9282__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), new cljs.core.Keyword(null, 
-              "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9285), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23596)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23592__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23595), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9282__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), new cljs.core.Keyword(null, 
-              "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9285)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23592__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23595)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9244) {
-            if (e9244 instanceof Error) {
-              var t__4676__auto___9287 = e9244;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9282__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9287, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23554) {
+            if (e23554 instanceof Error) {
+              var t__4676__auto___23597 = e23554;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23592__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 4, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23597, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9244;
+              throw e23554;
             }
           }
-        } catch (e9243) {
-          if (e9243 instanceof Error) {
-            var e__4620__auto___9288 = e9243;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9283__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9282__$1, e__4620__auto___9288);
+        } catch (e23553) {
+          if (e23553 instanceof Error) {
+            var e__4620__auto___23598 = e23553;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23593__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23592__$1, e__4620__auto___23598);
             } else {
-              throw e__4620__auto___9288;
+              throw e__4620__auto___23598;
             }
           } else {
-            throw e9243;
+            throw e23553;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9242_9284;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23552_23594;
       }
-      var _test_ctx_9289__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9290__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9289__$1)));
-      var _STAR_test_ctx_STAR_9245_9291 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23599__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23600__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23599__$1)));
+      var _STAR_test_ctx_STAR_23555_23601 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9290__$1) ? null : _test_ctx_9289__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23600__$1) ? null : _test_ctx_23599__$1;
         try {
           try {
-            var values__4639__auto___9292 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "1.0")), 1);
-            var result__4640__auto___9293 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9292);
-            if (result__4640__auto___9293 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23602 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "1.0")), 1);
+            var result__4640__auto___23603 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23602);
+            if (result__4640__auto___23603 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9293)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9289__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9292), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23603)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23599__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23602), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9289__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9292)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23599__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23602)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9247) {
-            if (e9247 instanceof Error) {
-              var t__4676__auto___9294 = e9247;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9289__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9294, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23557) {
+            if (e23557 instanceof Error) {
+              var t__4676__auto___23604 = e23557;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23599__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.0")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23604, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9247;
+              throw e23557;
             }
           }
-        } catch (e9246) {
-          if (e9246 instanceof Error) {
-            var e__4620__auto___9295 = e9246;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9290__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9289__$1, e__4620__auto___9295);
+        } catch (e23556) {
+          if (e23556 instanceof Error) {
+            var e__4620__auto___23605 = e23556;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23600__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23599__$1, e__4620__auto___23605);
             } else {
-              throw e__4620__auto___9295;
+              throw e__4620__auto___23605;
             }
           } else {
-            throw e9246;
+            throw e23556;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9245_9291;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23555_23601;
       }
-      var _test_ctx_9296__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9297__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9296__$1)));
-      var _STAR_test_ctx_STAR_9248_9298 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23606__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23607__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23606__$1)));
+      var _STAR_test_ctx_STAR_23558_23608 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9297__$1) ? null : _test_ctx_9296__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23607__$1) ? null : _test_ctx_23606__$1;
         try {
           try {
-            var values__4639__auto___9299 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "1.9")), 1);
-            var result__4640__auto___9300 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9299);
-            if (result__4640__auto___9300 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23609 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_int.call(null, 4, "1.9")), 1);
+            var result__4640__auto___23610 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23609);
+            if (result__4640__auto___23610 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9300)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9296__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9299), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23610)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23606__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23609), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9296__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9299)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23606__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23609)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9250) {
-            if (e9250 instanceof Error) {
-              var t__4676__auto___9301 = e9250;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9296__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9301, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23560) {
+            if (e23560 instanceof Error) {
+              var t__4676__auto___23611 = e23560;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23606__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.9")), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23611, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9250;
+              throw e23560;
             }
           }
-        } catch (e9249) {
-          if (e9249 instanceof Error) {
-            var e__4620__auto___9302 = e9249;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9297__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9296__$1, e__4620__auto___9302);
+        } catch (e23559) {
+          if (e23559 instanceof Error) {
+            var e__4620__auto___23612 = e23559;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23607__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23606__$1, e__4620__auto___23612);
             } else {
-              throw e__4620__auto___9302;
+              throw e__4620__auto___23612;
             }
           } else {
-            throw e9249;
+            throw e23559;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9248_9298;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23558_23608;
       }
       var _test_ctx__$1 = _test_ctx;
       var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
-      var _STAR_test_ctx_STAR_9251 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _STAR_test_ctx_STAR_23561 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
         cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
@@ -39045,111 +39045,111 @@ cluster_splitter.G__9201 = cljs.core.with_meta.call(null, cluster_splitter.G__92
               "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
             return result__4640__auto__;
-          } catch (e9253) {
-            if (e9253 instanceof Error) {
-              var t__4676__auto__ = e9253;
+          } catch (e23563) {
+            if (e23563 instanceof Error) {
+              var t__4676__auto__ = e23563;
               return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), 1, cljs.core.list(new cljs.core.Symbol(null, "str-\x3eint", "str-\x3eint", 1902145725, null), 4, "1.001")), 
               new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9253;
+              throw e23563;
             }
           }
-        } catch (e9252) {
-          if (e9252 instanceof Error) {
-            var e__4620__auto__ = e9252;
+        } catch (e23562) {
+          if (e23562 instanceof Error) {
+            var e__4620__auto__ = e23562;
             if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
               return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
               throw e__4620__auto__;
             }
           } else {
-            throw e9252;
+            throw e23562;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9251;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23561;
       }
-    } catch (e9229) {
-      if (e9229 instanceof Error) {
-        var e__4620__auto__ = e9229;
+    } catch (e23539) {
+      if (e23539 instanceof Error) {
+        var e__4620__auto__ = e23539;
         if (cljs.core.truth_(async_QMARK___4619__auto__)) {
           return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
         } else {
           throw e__4620__auto__;
         }
       } else {
-        throw e9229;
+        throw e23539;
       }
     }
   } finally {
-    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9228;
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23538;
   }
 }], null)));
-cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__9201", "cluster-splitter/G__9201", -1869564473, null), cluster_splitter.G__9201);
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23511", "cluster-splitter/G__23511", -1747859994, null), cluster_splitter.G__23511);
 cluster_splitter.html__GT_output = function html__GT_output(html) {
   return $("#output").html(html);
 };
 cluster_splitter.str__GT_ip_seq = function str__GT_ip_seq(s) {
   return cljs.core.re_seq.call(null, /\d+\.\d+\.\d+\.\d+/, s);
 };
-cluster_splitter.G__9303 = function G__9303() {
-  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__9303);
+cluster_splitter.G__23613 = function G__23613() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23613);
 };
-cluster_splitter.G__9303 = cljs.core.with_meta.call(null, cluster_splitter.G__9303, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__9303", "cluster-splitter/G__9303", 1042596364, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__9303_test(test_ctx__4704__auto__) {
+cluster_splitter.G__23613 = cljs.core.with_meta.call(null, cluster_splitter.G__23613, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23613", "cluster-splitter/G__23613", -466057623, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23613_test(test_ctx__4704__auto__) {
   var _test_ctx = test_ctx__4704__auto__;
   var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
-  var _STAR_test_ctx_STAR_9312 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  var _STAR_test_ctx_STAR_23622 = cemerick.cljs.test._STAR_test_ctx_STAR_;
   try {
     cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
     try {
-      var _test_ctx_9320__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9321__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9320__$1)));
-      var _STAR_test_ctx_STAR_9314_9322 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx_23630__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23631__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23630__$1)));
+      var _STAR_test_ctx_STAR_23624_23632 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9321__$1) ? null : _test_ctx_9320__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23631__$1) ? null : _test_ctx_23630__$1;
         try {
           try {
-            var values__4639__auto___9323 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_ip_seq.call(null, "hi 1.1.1.1 random text 2.2.2")), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null));
-            var result__4640__auto___9324 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9323);
-            if (result__4640__auto___9324 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23633 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.str__GT_ip_seq.call(null, "hi 1.1.1.1 random text 2.2.2")), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null));
+            var result__4640__auto___23634 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23633);
+            if (result__4640__auto___23634 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9324)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9320__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), cljs.core.list(new cljs.core.Symbol(null, 
-              "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9323), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23634)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23630__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), cljs.core.list(new cljs.core.Symbol(null, 
+              "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23633), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9320__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), cljs.core.list(new cljs.core.Symbol(null, 
-              "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9323)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), 
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23630__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), cljs.core.list(new cljs.core.Symbol(null, 
+              "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23633)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), 
               null], null));
             }
-          } catch (e9316) {
-            if (e9316 instanceof Error) {
-              var t__4676__auto___9325 = e9316;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9320__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), 
-              cljs.core.list(new cljs.core.Symbol(null, "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9325, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23626) {
+            if (e23626 instanceof Error) {
+              var t__4676__auto___23635 = e23626;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23630__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1"], null), 
+              cljs.core.list(new cljs.core.Symbol(null, "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23635, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9316;
+              throw e23626;
             }
           }
-        } catch (e9315) {
-          if (e9315 instanceof Error) {
-            var e__4620__auto___9326 = e9315;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9321__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9320__$1, e__4620__auto___9326);
+        } catch (e23625) {
+          if (e23625 instanceof Error) {
+            var e__4620__auto___23636 = e23625;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23631__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23630__$1, e__4620__auto___23636);
             } else {
-              throw e__4620__auto___9326;
+              throw e__4620__auto___23636;
             }
           } else {
-            throw e9315;
+            throw e23625;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9314_9322;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23624_23632;
       }
       var _test_ctx__$1 = _test_ctx;
       var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
-      var _STAR_test_ctx_STAR_9317 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _STAR_test_ctx_STAR_23627 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
         cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
@@ -39169,47 +39169,47 @@ cluster_splitter.G__9303 = cljs.core.with_meta.call(null, cluster_splitter.G__93
               "message", "message", -406056002), null], null));
             }
             return result__4640__auto__;
-          } catch (e9319) {
-            if (e9319 instanceof Error) {
-              var t__4676__auto__ = e9319;
+          } catch (e23629) {
+            if (e23629 instanceof Error) {
+              var t__4676__auto__ = e23629;
               return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["1.1.1.1", "2.2.2.2"], 
               null), cljs.core.list(new cljs.core.Symbol(null, "str-\x3eip-seq", "str-\x3eip-seq", 1976882093, null), "hi 1.1.1.1 random text 2.2.2.2")), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9319;
+              throw e23629;
             }
           }
-        } catch (e9318) {
-          if (e9318 instanceof Error) {
-            var e__4620__auto__ = e9318;
+        } catch (e23628) {
+          if (e23628 instanceof Error) {
+            var e__4620__auto__ = e23628;
             if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
               return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
               throw e__4620__auto__;
             }
           } else {
-            throw e9318;
+            throw e23628;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9317;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23627;
       }
-    } catch (e9313) {
-      if (e9313 instanceof Error) {
-        var e__4620__auto__ = e9313;
+    } catch (e23623) {
+      if (e23623 instanceof Error) {
+        var e__4620__auto__ = e23623;
         if (cljs.core.truth_(async_QMARK___4619__auto__)) {
           return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
         } else {
           throw e__4620__auto__;
         }
       } else {
-        throw e9313;
+        throw e23623;
       }
     }
   } finally {
-    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9312;
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23622;
   }
 }], null)));
-cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__9303", "cluster-splitter/G__9303", 1042596364, null), cluster_splitter.G__9303);
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23613", "cluster-splitter/G__23613", -466057623, null), cluster_splitter.G__23613);
 cluster_splitter.ip_seq__GT_machine_seq = function ip_seq__GT_machine_seq(ip_seq) {
   return cljs.core.map.call(null, cljs.core.vec, cljs.core.partition.call(null, 2, ip_seq));
 };
@@ -39217,31 +39217,147 @@ cluster_splitter.machine_seq__GT_cluster_seq = function machine_seq__GT_cluster_
   return cljs.core.map.call(null, cljs.core.vec, cljs.core.partition.call(null, machines_per_cluster, machine_seq));
 };
 cluster_splitter.merge_cluster_seqs = function merge_cluster_seqs(seq1, seq2) {
-  return cljs.core.map.call(null, function(p1__9327_SHARP_, p2__9328_SHARP_) {
-    return cljs.core.into.call(null, p1__9327_SHARP_, p2__9328_SHARP_);
-  }, seq1, seq2);
+  if (cljs.core.empty_QMARK_.call(null, seq1)) {
+    return seq2;
+  } else {
+    if (cljs.core.empty_QMARK_.call(null, seq2)) {
+      return seq1;
+    } else {
+      return cljs.core.map.call(null, function(p1__23637_SHARP_, p2__23638_SHARP_) {
+        return cljs.core.into.call(null, p1__23637_SHARP_, p2__23638_SHARP_);
+      }, seq1, seq2);
+    }
+  }
 };
-cluster_splitter.G__9329 = function G__9329() {
-  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__9329);
+cluster_splitter.G__23639 = function G__23639() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23639);
 };
-cluster_splitter.G__9329 = cljs.core.with_meta.call(null, cluster_splitter.G__9329, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__9329", "cluster-splitter/G__9329", 349848340, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__9329_test(test_ctx__4704__auto__) {
+cluster_splitter.G__23639 = cljs.core.with_meta.call(null, cluster_splitter.G__23639, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23639", "cluster-splitter/G__23639", -1775888064, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23639_test(test_ctx__4704__auto__) {
   var _test_ctx = test_ctx__4704__auto__;
   var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
-  var _STAR_test_ctx_STAR_9335 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  var _STAR_test_ctx_STAR_23651 = cemerick.cljs.test._STAR_test_ctx_STAR_;
   try {
     cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
     try {
+      var _test_ctx_23662__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23663__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23662__$1)));
+      var _STAR_test_ctx_STAR_23653_23664 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23663__$1) ? null : _test_ctx_23662__$1;
+        try {
+          try {
+            var values__4639__auto___23665 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.merge_cluster_seqs.call(null, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+            "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), 
+            new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null));
+            var result__4640__auto___23666 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23665);
+            if (result__4640__auto___23666 instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto___23666)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23662__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
+              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
+              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23665), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23662__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
+              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
+              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23665)), new cljs.core.Symbol(null, 
+              "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+          } catch (e23655) {
+            if (e23655 instanceof Error) {
+              var t__4676__auto___23667 = e23655;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23662__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
+              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
+              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23667, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              throw e23655;
+            }
+          }
+        } catch (e23654) {
+          if (e23654 instanceof Error) {
+            var e__4620__auto___23668 = e23654;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23663__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23662__$1, e__4620__auto___23668);
+            } else {
+              throw e__4620__auto___23668;
+            }
+          } else {
+            throw e23654;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23653_23664;
+      }
+      var _test_ctx_23669__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23670__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23669__$1)));
+      var _STAR_test_ctx_STAR_23656_23671 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23670__$1) ? null : _test_ctx_23669__$1;
+        try {
+          try {
+            var values__4639__auto___23672 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.merge_cluster_seqs.call(null, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+            "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), cljs.core.PersistentVector.EMPTY)), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null));
+            var result__4640__auto___23673 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23672);
+            if (result__4640__auto___23673 instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto___23673)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23669__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", 
+              "c", -1763192079)], null)], null), cljs.core.PersistentVector.EMPTY)), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23672), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23669__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", 
+              "c", -1763192079)], null)], null), cljs.core.PersistentVector.EMPTY)), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23672)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+          } catch (e23658) {
+            if (e23658 instanceof Error) {
+              var t__4676__auto___23674 = e23658;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23669__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", 
+              "c", -1763192079)], null)], null), cljs.core.PersistentVector.EMPTY)), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23674, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              throw e23658;
+            }
+          }
+        } catch (e23657) {
+          if (e23657 instanceof Error) {
+            var e__4620__auto___23675 = e23657;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23670__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23669__$1, e__4620__auto___23675);
+            } else {
+              throw e__4620__auto___23675;
+            }
+          } else {
+            throw e23657;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23656_23671;
+      }
       var _test_ctx__$1 = _test_ctx;
       var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
-      var _STAR_test_ctx_STAR_9337 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _STAR_test_ctx_STAR_23659 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
         cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
           try {
-            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.merge_cluster_seqs.call(null, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
-            "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
-            "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 
-            2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null));
+            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.merge_cluster_seqs.call(null, cljs.core.PersistentVector.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null));
             var result__4640__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto__);
             if (result__4640__auto__ instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
@@ -39249,254 +39365,194 @@ cluster_splitter.G__9329 = cljs.core.with_meta.call(null, cluster_splitter.G__93
             }
             if (cljs.core.truth_(result__4640__auto__)) {
               cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
-              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
-              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
-              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), cljs.core.PersistentVector.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
               cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
-              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
-              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
-              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", 
-              "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), cljs.core.PersistentVector.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
             return result__4640__auto__;
-          } catch (e9339) {
-            if (e9339 instanceof Error) {
-              var t__4676__auto__ = e9339;
+          } catch (e23661) {
+            if (e23661 instanceof Error) {
+              var t__4676__auto__ = e23661;
               return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
-              "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", 
-              "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
-              "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "merge-cluster-seqs", "merge-cluster-seqs", -2142161104, 
+              null), cljs.core.PersistentVector.EMPTY, new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Keyword(null, "f", "f", -1597136552)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9339;
+              throw e23661;
             }
           }
-        } catch (e9338) {
-          if (e9338 instanceof Error) {
-            var e__4620__auto__ = e9338;
+        } catch (e23660) {
+          if (e23660 instanceof Error) {
+            var e__4620__auto__ = e23660;
             if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
               return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
               throw e__4620__auto__;
             }
           } else {
-            throw e9338;
+            throw e23660;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9337;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23659;
       }
-    } catch (e9336) {
-      if (e9336 instanceof Error) {
-        var e__4620__auto__ = e9336;
+    } catch (e23652) {
+      if (e23652 instanceof Error) {
+        var e__4620__auto__ = e23652;
         if (cljs.core.truth_(async_QMARK___4619__auto__)) {
           return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
         } else {
           throw e__4620__auto__;
         }
       } else {
-        throw e9336;
+        throw e23652;
       }
     }
   } finally {
-    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9335;
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23651;
   }
 }], null)));
-cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__9329", "cluster-splitter/G__9329", 349848340, null), cluster_splitter.G__9329);
-cluster_splitter.machine_seq__GT_4_cluster_seq = function machine_seq__GT_4_cluster_seq(machine_seq) {
-  return cluster_splitter.machine_seq__GT_cluster_seq.call(null, 4, machine_seq);
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23639", "cluster-splitter/G__23639", -1775888064, null), cluster_splitter.G__23639);
+cluster_splitter.M_L = "Lion     ";
+cluster_splitter.M_E = "Elephant ";
+cluster_splitter.M_T = "Tiger    ";
+cluster_splitter.M_H = "Horse    ";
+cluster_splitter.M_M = "Monkey   ";
+cluster_splitter.LARGE_MACHINE_NAMES = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_L], null);
+cluster_splitter.SMALL_MACHINE_NAMES = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_E, cluster_splitter.M_T, cluster_splitter.M_H, cluster_splitter.M_M], null);
+cluster_splitter.machine_seq_prepend_names = function machine_seq_prepend_names(names, machine_seq) {
+  var names_cycle = cljs.core.cycle.call(null, names);
+  var prepend_item_to_seq = function(names_cycle) {
+    return function(p1__23676_SHARP_, p2__23677_SHARP_) {
+      return cljs.core.vec.call(null, cljs.core.cons.call(null, p1__23676_SHARP_, p2__23677_SHARP_));
+    };
+  }(names_cycle);
+  var _ = cljs.core.map.call(null, prepend_item_to_seq, names_cycle, machine_seq);
+  return _;
 };
-cluster_splitter.machine_seq__GT_5_cluster_seq = function machine_seq__GT_5_cluster_seq(machine_seq) {
-  var machine_count = cljs.core.count.call(null, machine_seq);
-  var large_machine_count = machine_count / 5;
-  var large_cluster_seq = cluster_splitter.machine_seq__GT_cluster_seq.call(null, 1, cljs.core.take.call(null, large_machine_count, machine_seq));
-  var small_cluster_seq = cluster_splitter.machine_seq__GT_cluster_seq.call(null, 4, cljs.core.drop.call(null, large_machine_count, machine_seq));
-  var cluster_seq = cluster_splitter.merge_cluster_seqs.call(null, large_cluster_seq, small_cluster_seq);
-  return cluster_seq;
+cluster_splitter.G__23678 = function G__23678() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23678);
 };
-cluster_splitter.machine_seq__GT_4_or_5_cluster_seq = function machine_seq__GT_4_or_5_cluster_seq(machines_per_cluster, machine_seq) {
-  if (cljs.core._EQ_.call(null, 5, machines_per_cluster)) {
-    return cluster_splitter.machine_seq__GT_5_cluster_seq.call(null, machine_seq);
-  } else {
-    return cluster_splitter.machine_seq__GT_4_cluster_seq.call(null, machine_seq);
-  }
-};
-cluster_splitter.G__9340 = function G__9340() {
-  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__9340);
-};
-cluster_splitter.G__9340 = cljs.core.with_meta.call(null, cluster_splitter.G__9340, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__9340", "cluster-splitter/G__9340", 1327077964, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__9340_test(test_ctx__4704__auto__) {
+cluster_splitter.G__23678 = cljs.core.with_meta.call(null, cluster_splitter.G__23678, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23678", "cluster-splitter/G__23678", 241877763, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23678_test(test_ctx__4704__auto__) {
   var _test_ctx = test_ctx__4704__auto__;
   var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
-  var _STAR_test_ctx_STAR_9355 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  var _STAR_test_ctx_STAR_23684 = cemerick.cljs.test._STAR_test_ctx_STAR_;
   try {
     cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
     try {
-      var _test_ctx_9369__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9370__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9369__$1)));
-      var _STAR_test_ctx_STAR_9357_9371 = cemerick.cljs.test._STAR_test_ctx_STAR_;
-      try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9370__$1) ? null : _test_ctx_9369__$1;
-        try {
-          try {
-            var values__4639__auto___9372 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.PersistentVector(null, 
-            1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null));
-            var result__4640__auto___9373 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9372);
-            if (result__4640__auto___9373 instanceof cemerick.cljs.test.TestContext) {
-              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
-            } else {
-            }
-            if (cljs.core.truth_(result__4640__auto___9373)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9369__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, 
-              [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9372), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9369__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, 
-              [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9372)), 
-              new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            }
-          } catch (e9359) {
-            if (e9359 instanceof Error) {
-              var t__4676__auto___9374 = e9359;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9369__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, 
-              [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9374, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            } else {
-              throw e9359;
-            }
-          }
-        } catch (e9358) {
-          if (e9358 instanceof Error) {
-            var e__4620__auto___9375 = e9358;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9370__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9369__$1, e__4620__auto___9375);
-            } else {
-              throw e__4620__auto___9375;
-            }
-          } else {
-            throw e9358;
-          }
-        }
-      } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9357_9371;
-      }
-      var _test_ctx_9376__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9377__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9376__$1)));
-      var _STAR_test_ctx_STAR_9360_9378 = cemerick.cljs.test._STAR_test_ctx_STAR_;
-      try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9377__$1) ? null : _test_ctx_9376__$1;
-        try {
-          try {
-            var values__4639__auto___9379 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 4, new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), new cljs.core.Keyword(null, 
-            "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", 
-            "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null));
-            var result__4640__auto___9380 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9379);
-            if (result__4640__auto___9380 instanceof cemerick.cljs.test.TestContext) {
-              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
-            } else {
-            }
-            if (cljs.core.truth_(result__4640__auto___9380)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9376__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), 
-              new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), 
-              new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9379), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9376__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), 
-              new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), 
-              new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9379)), 
-              new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            }
-          } catch (e9362) {
-            if (e9362 instanceof Error) {
-              var t__4676__auto___9381 = e9362;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9376__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), 
-              new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 4, new cljs.core.PersistentVector(null, 8, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), 
-              new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9381, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            } else {
-              throw e9362;
-            }
-          }
-        } catch (e9361) {
-          if (e9361 instanceof Error) {
-            var e__4620__auto___9382 = e9361;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9377__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9376__$1, e__4620__auto___9382);
-            } else {
-              throw e__4620__auto___9382;
-            }
-          } else {
-            throw e9361;
-          }
-        }
-      } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9360_9378;
-      }
-      var _test_ctx_9383__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9384__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9383__$1)));
-      var _STAR_test_ctx_STAR_9363_9385 = cemerick.cljs.test._STAR_test_ctx_STAR_;
-      try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9384__$1) ? null : _test_ctx_9383__$1;
-        try {
-          try {
-            var values__4639__auto___9386 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 5, new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, 
-            "d", "d", 1972142424)], null))), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null));
-            var result__4640__auto___9387 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9386);
-            if (result__4640__auto___9387 instanceof cemerick.cljs.test.TestContext) {
-              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
-            } else {
-            }
-            if (cljs.core.truth_(result__4640__auto___9387)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9383__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9386), new cljs.core.Keyword(null, "message", "message", 
-              -406056002), null], null));
-            } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9383__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", 
-              "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9386)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            }
-          } catch (e9365) {
-            if (e9365 instanceof Error) {
-              var t__4676__auto___9388 = e9365;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9383__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9388, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
-            } else {
-              throw e9365;
-            }
-          }
-        } catch (e9364) {
-          if (e9364 instanceof Error) {
-            var e__4620__auto___9389 = e9364;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9384__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9383__$1, e__4620__auto___9389);
-            } else {
-              throw e__4620__auto___9389;
-            }
-          } else {
-            throw e9364;
-          }
-        }
-      } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9363_9385;
-      }
       var _test_ctx__$1 = _test_ctx;
       var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
-      var _STAR_test_ctx_STAR_9366 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _STAR_test_ctx_STAR_23686 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
         cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
           try {
-            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 5, new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "y", "y", -1757859776), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", 
-            "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 
-            2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "y", "y", -1757859776), new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, 
-            "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null));
+            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq_prepend_names.call(null, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+            "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "3", "3", 2097825370)], null)], null))), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "3", "3", 2097825370)], 
+            null)], null));
+            var result__4640__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto__);
+            if (result__4640__auto__ instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto__)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, 
+              "3", "3", 2097825370)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-prepend-names", "machine-seq-prepend-names", 35524733, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "3", "3", 2097825370)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", 
+              "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, 
+              "3", "3", 2097825370)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-prepend-names", "machine-seq-prepend-names", 35524733, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "3", "3", 2097825370)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, 
+              new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+            return result__4640__auto__;
+          } catch (e23688) {
+            if (e23688 instanceof Error) {
+              var t__4676__auto__ = e23688;
+              return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, 
+              "3", "3", 2097825370)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-prepend-names", "machine-seq-prepend-names", 35524733, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "1", "1", -521621649)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "2", "2", -1645882217)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "3", "3", 2097825370)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              throw e23688;
+            }
+          }
+        } catch (e23687) {
+          if (e23687 instanceof Error) {
+            var e__4620__auto__ = e23687;
+            if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
+              return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
+            } else {
+              throw e__4620__auto__;
+            }
+          } else {
+            throw e23687;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23686;
+      }
+    } catch (e23685) {
+      if (e23685 instanceof Error) {
+        var e__4620__auto__ = e23685;
+        if (cljs.core.truth_(async_QMARK___4619__auto__)) {
+          return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
+        } else {
+          throw e__4620__auto__;
+        }
+      } else {
+        throw e23685;
+      }
+    }
+  } finally {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23684;
+  }
+}], null)));
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23678", "cluster-splitter/G__23678", 241877763, null), cluster_splitter.G__23678);
+cluster_splitter.machine_seq__GT_4_cluster_seq = function machine_seq__GT_4_cluster_seq(machine_seq) {
+  var cluster_seq = cluster_splitter.machine_seq__GT_cluster_seq.call(null, 4, cluster_splitter.machine_seq_prepend_names.call(null, cluster_splitter.SMALL_MACHINE_NAMES, machine_seq));
+  return cluster_seq;
+};
+cluster_splitter.machine_seq__GT_5_cluster_seq = function machine_seq__GT_5_cluster_seq(machine_seq) {
+  var machine_count = cljs.core.count.call(null, machine_seq);
+  var large_machine_count = machine_count / 5;
+  var large_machine_seq = cluster_splitter.machine_seq_prepend_names.call(null, cluster_splitter.LARGE_MACHINE_NAMES, cljs.core.take.call(null, large_machine_count, machine_seq));
+  var small_machine_seq = cluster_splitter.machine_seq_prepend_names.call(null, cluster_splitter.SMALL_MACHINE_NAMES, cljs.core.drop.call(null, large_machine_count, machine_seq));
+  var large_cluster_seq = cluster_splitter.machine_seq__GT_cluster_seq.call(null, 1, large_machine_seq);
+  var small_cluster_seq = cluster_splitter.machine_seq__GT_cluster_seq.call(null, 4, small_machine_seq);
+  var cluster_seq = cluster_splitter.merge_cluster_seqs.call(null, large_cluster_seq, small_cluster_seq);
+  return cluster_seq;
+};
+cluster_splitter.G__23689 = function G__23689() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23689);
+};
+cluster_splitter.G__23689 = cljs.core.with_meta.call(null, cluster_splitter.G__23689, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23689", "cluster-splitter/G__23689", -1376270649, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23689_test(test_ctx__4704__auto__) {
+  var _test_ctx = test_ctx__4704__auto__;
+  var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
+  var _STAR_test_ctx_STAR_23695 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  try {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
+    try {
+      var _test_ctx__$1 = _test_ctx;
+      var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
+      var _STAR_test_ctx_STAR_23697 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
+        try {
+          try {
+            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_5_cluster_seq.call(null, cluster_splitter.ip_seq__GT_machine_seq.call(null, cljs.core.range.call(null, 20)))), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [cluster_splitter.M_L, 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_E, 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_T, 6, 7], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_H, 8, 9], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_M, 
+            10, 11], null)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_L, 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_E, 12, 13], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_T, 14, 15], null), new cljs.core.PersistentVector(null, 
+            3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_H, 16, 17], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_M, 18, 19], null)], null)], null));
             var result__4640__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto__);
             if (result__4640__auto__ instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
@@ -39504,179 +39560,413 @@ cluster_splitter.G__9340 = cljs.core.with_meta.call(null, cluster_splitter.G__93
             }
             if (cljs.core.truth_(result__4640__auto__)) {
               cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "y", "y", -1757859776), new cljs.core.Keyword(null, "e", "e", 1381269198), 
-              new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "y", "y", -1757859776), 
-              new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, 
-              cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, 
+              null), 6, 7], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), 8, 9], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 10, 11], null)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 12, 13], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 14, 15], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, 
+              "M_H", "M_H", -193716981, null), 16, 17], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 18, 19], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e5-cluster-seq", "machine-seq-\x3e5-cluster-seq", -2110463121, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 20, new cljs.core.Symbol(null, "range", "range", 
+              -1014743483, null), new cljs.core.Symbol(null, "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
               cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "y", "y", -1757859776), new cljs.core.Keyword(null, "e", "e", 1381269198), 
-              new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "y", "y", -1757859776), 
-              new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, 
-              cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, 
+              null), 6, 7], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), 8, 9], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 10, 11], null)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 12, 13], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 14, 15], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, 
+              "M_H", "M_H", -193716981, null), 16, 17], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 18, 19], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e5-cluster-seq", "machine-seq-\x3e5-cluster-seq", -2110463121, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 20, new cljs.core.Symbol(null, "range", "range", 
+              -1014743483, null), new cljs.core.Symbol(null, "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", 
+              "message", -406056002), null], null));
             }
             return result__4640__auto__;
-          } catch (e9368) {
-            if (e9368 instanceof Error) {
-              var t__4676__auto__ = e9368;
+          } catch (e23699) {
+            if (e23699 instanceof Error) {
+              var t__4676__auto__ = e23699;
               return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
-              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "y", "y", -1757859776), new cljs.core.Keyword(null, "e", "e", 1381269198), 
-              new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185), new cljs.core.Keyword(null, "y", "y", -1757859776), 
-              new cljs.core.Keyword(null, "a", "a", -2123407586), new cljs.core.Keyword(null, "b", "b", 1482224470), new cljs.core.Keyword(null, "c", "c", -1763192079), new cljs.core.Keyword(null, "d", "d", 1972142424), new cljs.core.Keyword(null, "e", "e", 1381269198), new cljs.core.Keyword(null, "f", "f", -1597136552), new cljs.core.Keyword(null, "g", "g", 1738089905), new cljs.core.Keyword(null, "h", "h", 1109658740)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, 
-              new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, 
+              null), 6, 7], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), 8, 9], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 10, 11], null)], null), new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+              [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 12, 13], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 14, 15], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, 
+              "M_H", "M_H", -193716981, null), 16, 17], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 18, 19], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e5-cluster-seq", "machine-seq-\x3e5-cluster-seq", -2110463121, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 20, new cljs.core.Symbol(null, "range", "range", 
+              -1014743483, null), new cljs.core.Symbol(null, "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9368;
+              throw e23699;
             }
           }
-        } catch (e9367) {
-          if (e9367 instanceof Error) {
-            var e__4620__auto__ = e9367;
+        } catch (e23698) {
+          if (e23698 instanceof Error) {
+            var e__4620__auto__ = e23698;
             if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
               return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
               throw e__4620__auto__;
             }
           } else {
-            throw e9367;
+            throw e23698;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9366;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23697;
       }
-    } catch (e9356) {
-      if (e9356 instanceof Error) {
-        var e__4620__auto__ = e9356;
+    } catch (e23696) {
+      if (e23696 instanceof Error) {
+        var e__4620__auto__ = e23696;
         if (cljs.core.truth_(async_QMARK___4619__auto__)) {
           return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
         } else {
           throw e__4620__auto__;
         }
       } else {
-        throw e9356;
+        throw e23696;
       }
     }
   } finally {
-    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9355;
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23695;
   }
 }], null)));
-cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__9340", "cluster-splitter/G__9340", 1327077964, null), cluster_splitter.G__9340);
-cluster_splitter.cluster_seq__GT_str = function cluster_seq__GT_str(cluster_seq) {
-  return clojure.string.join.call(null, "\n\n", cljs.core.map_indexed.call(null, function(p1__9391_SHARP_, p2__9392_SHARP_) {
-    return "Cluster " + cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__9391_SHARP_ + 1) + "\n" + cljs.core.str.cljs$core$IFn$_invoke$arity$1(p2__9392_SHARP_);
-  }, cljs.core.map.call(null, function(pairs) {
-    return clojure.string.join.call(null, "\n", cljs.core.map.call(null, function(p1__9390_SHARP_) {
-      return clojure.string.join.call(null, "\t", p1__9390_SHARP_);
-    }, pairs));
-  }, cluster_seq)));
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23689", "cluster-splitter/G__23689", -1376270649, null), cluster_splitter.G__23689);
+cluster_splitter.G__23700 = function G__23700() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23700);
 };
-cluster_splitter.G__9393 = function G__9393() {
-  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__9393);
-};
-cluster_splitter.G__9393 = cljs.core.with_meta.call(null, cluster_splitter.G__9393, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__9393", "cluster-splitter/G__9393", -131095712, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__9393_test(test_ctx__4704__auto__) {
+cluster_splitter.G__23700 = cljs.core.with_meta.call(null, cluster_splitter.G__23700, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23700", "cluster-splitter/G__23700", -528440203, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23700_test(test_ctx__4704__auto__) {
   var _test_ctx = test_ctx__4704__auto__;
   var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
-  var _STAR_test_ctx_STAR_9405 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  var _STAR_test_ctx_STAR_23706 = cemerick.cljs.test._STAR_test_ctx_STAR_;
   try {
     cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
     try {
-      var _test_ctx_9416__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9417__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9416__$1)));
-      var _STAR_test_ctx_STAR_9407_9418 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _test_ctx__$1 = _test_ctx;
+      var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
+      var _STAR_test_ctx_STAR_23708 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9417__$1) ? null : _test_ctx_9416__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
           try {
-            var values__4639__auto___9419 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.cluster_seq__GT_str.call(null, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), "Cluster 1\na\tb");
-            var result__4640__auto___9420 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9419);
-            if (result__4640__auto___9420 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_cluster_seq.call(null, cluster_splitter.ip_seq__GT_machine_seq.call(null, cljs.core.range.call(null, 8)))), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [cluster_splitter.M_E, 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_T, 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_H, 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_M, 6, 7], null)], null)], null));
+            var result__4640__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto__);
+            if (result__4640__auto__ instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9420)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9416__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
-              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9419), new cljs.core.Keyword(null, 
-              "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto__)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, 
+              null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 6, 7], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-cluster-seq", "machine-seq-\x3e4-cluster-seq", 210530257, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 8, new cljs.core.Symbol(null, "range", "range", -1014743483, null), new cljs.core.Symbol(null, 
+              "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9416__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
-              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, 
-              new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9419)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, 
+              null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 6, 7], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-cluster-seq", "machine-seq-\x3e4-cluster-seq", 210530257, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 8, new cljs.core.Symbol(null, "range", "range", -1014743483, null), new cljs.core.Symbol(null, 
+              "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9409) {
-            if (e9409 instanceof Error) {
-              var t__4676__auto___9421 = e9409;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9416__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
-              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9421, new cljs.core.Keyword(null, "message", "message", -406056002), 
-              null], null));
+            return result__4640__auto__;
+          } catch (e23710) {
+            if (e23710 instanceof Error) {
+              var t__4676__auto__ = e23710;
+              return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), 0, 1], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), 2, 3], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, 
+              null), 4, 5], null), new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), 6, 7], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-cluster-seq", "machine-seq-\x3e4-cluster-seq", 210530257, null), cljs.core.list(new cljs.core.Symbol(null, "-\x3e\x3e", "-\x3e\x3e", -1874332161, null), 8, new cljs.core.Symbol(null, "range", "range", -1014743483, null), new cljs.core.Symbol(null, 
+              "ip-seq-\x3emachine-seq", "ip-seq-\x3emachine-seq", -932082458, null)))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9409;
+              throw e23710;
             }
           }
-        } catch (e9408) {
-          if (e9408 instanceof Error) {
-            var e__4620__auto___9422 = e9408;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9417__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9416__$1, e__4620__auto___9422);
+        } catch (e23709) {
+          if (e23709 instanceof Error) {
+            var e__4620__auto__ = e23709;
+            if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
+              return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
-              throw e__4620__auto___9422;
+              throw e__4620__auto__;
             }
           } else {
-            throw e9408;
+            throw e23709;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9407_9418;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23708;
       }
-      var _test_ctx_9423__$1 = _test_ctx;
-      var async_QMARK___4619__auto___9424__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_9423__$1)));
-      var _STAR_test_ctx_STAR_9410_9425 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+    } catch (e23707) {
+      if (e23707 instanceof Error) {
+        var e__4620__auto__ = e23707;
+        if (cljs.core.truth_(async_QMARK___4619__auto__)) {
+          return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
+        } else {
+          throw e__4620__auto__;
+        }
+      } else {
+        throw e23707;
+      }
+    }
+  } finally {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23706;
+  }
+}], null)));
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23700", "cluster-splitter/G__23700", -528440203, null), cluster_splitter.G__23700);
+cluster_splitter.machine_seq__GT_4_or_5_cluster_seq = function machine_seq__GT_4_or_5_cluster_seq(machines_per_cluster, machine_seq) {
+  if (cljs.core._EQ_.call(null, 5, machines_per_cluster)) {
+    return cluster_splitter.machine_seq__GT_5_cluster_seq.call(null, machine_seq);
+  } else {
+    return cluster_splitter.machine_seq__GT_4_cluster_seq.call(null, machine_seq);
+  }
+};
+cluster_splitter.G__23711 = function G__23711() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23711);
+};
+cluster_splitter.G__23711 = cljs.core.with_meta.call(null, cluster_splitter.G__23711, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23711", "cluster-splitter/G__23711", -1976214386, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23711_test(test_ctx__4704__auto__) {
+  var _test_ctx = test_ctx__4704__auto__;
+  var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
+  var _STAR_test_ctx_STAR_23720 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  try {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
+    try {
+      var _test_ctx_23728__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23729__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23728__$1)));
+      var _STAR_test_ctx_STAR_23722_23730 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___9424__$1) ? null : _test_ctx_9423__$1;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23729__$1) ? null : _test_ctx_23728__$1;
         try {
           try {
-            var values__4639__auto___9426 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.cluster_seq__GT_str.call(null, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, 
-            ["c", "d"], null)], null)], null))), "Cluster 1\na\tb\nc\td");
-            var result__4640__auto___9427 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___9426);
-            if (result__4640__auto___9427 instanceof cemerick.cljs.test.TestContext) {
+            var values__4639__auto___23731 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+            "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null))), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_E, new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_T, new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_H, new cljs.core.Keyword(null, "c", "c", -1763192079)], null), 
+            new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_M, new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null));
+            var result__4640__auto___23732 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23731);
+            if (result__4640__auto___23732 instanceof cemerick.cljs.test.TestContext) {
               throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
             } else {
             }
-            if (cljs.core.truth_(result__4640__auto___9427)) {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9423__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", "c\td"), 
-              cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___9426), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            if (cljs.core.truth_(result__4640__auto___23732)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23728__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", 
+              -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23731), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9423__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", "c\td"), 
-              cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___9426)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23728__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", 
+              -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23731)), new cljs.core.Symbol(null, 
+              "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             }
-          } catch (e9412) {
-            if (e9412 instanceof Error) {
-              var t__4676__auto___9428 = e9412;
-              cemerick.cljs.test.do_report.call(null, _test_ctx_9423__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", "c\td"), 
-              cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), 
-              new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___9428, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+          } catch (e23724) {
+            if (e23724 instanceof Error) {
+              var t__4676__auto___23733 = e23724;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23728__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 
+              2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", 
+              -1396627860, null), 4, new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23733, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9412;
+              throw e23724;
             }
           }
-        } catch (e9411) {
-          if (e9411 instanceof Error) {
-            var e__4620__auto___9429 = e9411;
-            if (cljs.core.truth_(async_QMARK___4619__auto___9424__$1)) {
-              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_9423__$1, e__4620__auto___9429);
+        } catch (e23723) {
+          if (e23723 instanceof Error) {
+            var e__4620__auto___23734 = e23723;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23729__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23728__$1, e__4620__auto___23734);
             } else {
-              throw e__4620__auto___9429;
+              throw e__4620__auto___23734;
             }
           } else {
-            throw e9411;
+            throw e23723;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9410_9425;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23722_23730;
       }
       var _test_ctx__$1 = _test_ctx;
       var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
-      var _STAR_test_ctx_STAR_9413 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      var _STAR_test_ctx_STAR_23725 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
+        try {
+          try {
+            var values__4639__auto__ = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.machine_seq__GT_4_or_5_cluster_seq.call(null, 5, new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+            "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null))), new cljs.core.PersistentVector(null, 
+            1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_L, new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_E, new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 
+            2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_T, new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_H, new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cluster_splitter.M_M, new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null));
+            var result__4640__auto__ = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto__);
+            if (result__4640__auto__ instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto__)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 
+              5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", 
+              -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto__), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 
+              5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", 
+              -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto__)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+            return result__4640__auto__;
+          } catch (e23727) {
+            if (e23727 instanceof Error) {
+              var t__4676__auto__ = e23727;
+              return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 
+              5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_L", "M_L", 835027025, null), new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_E", "M_E", 594654136, null), new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 2, 
+              5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_T", "M_T", -864119702, null), new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_H", "M_H", -193716981, null), new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null, "M_M", "M_M", 
+              -1216269855, null), new cljs.core.Keyword(null, "d", "d", 1972142424)], null)], null)], null), cljs.core.list(new cljs.core.Symbol(null, "machine-seq-\x3e4-or-5-cluster-seq", "machine-seq-\x3e4-or-5-cluster-seq", -1396627860, null), 5, new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "x", "x", 2099068185)], null), new cljs.core.PersistentVector(null, 
+              1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "a", "a", -2123407586)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "b", "b", 1482224470)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, "c", "c", -1763192079)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null, 
+              "d", "d", 1972142424)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              throw e23727;
+            }
+          }
+        } catch (e23726) {
+          if (e23726 instanceof Error) {
+            var e__4620__auto__ = e23726;
+            if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
+              return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
+            } else {
+              throw e__4620__auto__;
+            }
+          } else {
+            throw e23726;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23725;
+      }
+    } catch (e23721) {
+      if (e23721 instanceof Error) {
+        var e__4620__auto__ = e23721;
+        if (cljs.core.truth_(async_QMARK___4619__auto__)) {
+          return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
+        } else {
+          throw e__4620__auto__;
+        }
+      } else {
+        throw e23721;
+      }
+    }
+  } finally {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23720;
+  }
+}], null)));
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23711", "cluster-splitter/G__23711", -1976214386, null), cluster_splitter.G__23711);
+cluster_splitter.cluster_seq__GT_str = function cluster_seq__GT_str(cluster_seq) {
+  return clojure.string.join.call(null, "\n\n", cljs.core.map_indexed.call(null, function(p1__23736_SHARP_, p2__23737_SHARP_) {
+    return "Cluster " + cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__23736_SHARP_ + 1) + "\n" + cljs.core.str.cljs$core$IFn$_invoke$arity$1(p2__23737_SHARP_);
+  }, cljs.core.map.call(null, function(pairs) {
+    return clojure.string.join.call(null, "\n", cljs.core.map.call(null, function(p1__23735_SHARP_) {
+      return clojure.string.join.call(null, "\t", p1__23735_SHARP_);
+    }, pairs));
+  }, cluster_seq)));
+};
+cluster_splitter.G__23738 = function G__23738() {
+  return cemerick.cljs.test.test_function.call(null, cemerick.cljs.test.init_test_environment.call(null), cluster_splitter.G__23738);
+};
+cluster_splitter.G__23738 = cljs.core.with_meta.call(null, cluster_splitter.G__23738, cljs.core.merge.call(null, null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null, "name", "name", 1843675177), cljs.core.with_meta.call(null, new cljs.core.Symbol("cluster-splitter", "G__23738", "cluster-splitter/G__23738", 325721225, null), null), new cljs.core.Keyword(null, "test", "test", 577538877), function G__23738_test(test_ctx__4704__auto__) {
+  var _test_ctx = test_ctx__4704__auto__;
+  var async_QMARK___4619__auto__ = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx)));
+  var _STAR_test_ctx_STAR_23750 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+  try {
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto__) ? null : _test_ctx;
+    try {
+      var _test_ctx_23761__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23762__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23761__$1)));
+      var _STAR_test_ctx_STAR_23752_23763 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23762__$1) ? null : _test_ctx_23761__$1;
+        try {
+          try {
+            var values__4639__auto___23764 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.cluster_seq__GT_str.call(null, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), "Cluster 1\na\tb");
+            var result__4640__auto___23765 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23764);
+            if (result__4640__auto___23765 instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto___23765)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23761__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
+              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23764), new cljs.core.Keyword(null, 
+              "message", "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23761__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
+              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, 
+              new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23764)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+          } catch (e23754) {
+            if (e23754 instanceof Error) {
+              var t__4676__auto___23766 = e23754;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23761__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb"), cljs.core.list(new cljs.core.Symbol(null, 
+              "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23766, new cljs.core.Keyword(null, "message", "message", -406056002), 
+              null], null));
+            } else {
+              throw e23754;
+            }
+          }
+        } catch (e23753) {
+          if (e23753 instanceof Error) {
+            var e__4620__auto___23767 = e23753;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23762__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23761__$1, e__4620__auto___23767);
+            } else {
+              throw e__4620__auto___23767;
+            }
+          } else {
+            throw e23753;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23752_23763;
+      }
+      var _test_ctx_23768__$1 = _test_ctx;
+      var async_QMARK___4619__auto___23769__$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx_23768__$1)));
+      var _STAR_test_ctx_STAR_23755_23770 = cemerick.cljs.test._STAR_test_ctx_STAR_;
+      try {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto___23769__$1) ? null : _test_ctx_23768__$1;
+        try {
+          try {
+            var values__4639__auto___23771 = cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cluster_splitter.cluster_seq__GT_str.call(null, new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, 
+            ["c", "d"], null)], null)], null))), "Cluster 1\na\tb\nc\td");
+            var result__4640__auto___23772 = cljs.core.apply.call(null, cljs.core._EQ_, values__4639__auto___23771);
+            if (result__4640__auto___23772 instanceof cemerick.cljs.test.TestContext) {
+              throw new Error("TestContext provided as [form] in `is` assertion. If using `is` with an explicit test context, use the 3-arg arity.");
+            } else {
+            }
+            if (cljs.core.truth_(result__4640__auto___23772)) {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23768__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "pass", "pass", 1574159993), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", "c\td"), 
+              cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core.cons.call(null, cljs.core._EQ_, values__4639__auto___23771), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23768__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "fail", "fail", 1706214930), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", "c\td"), 
+              cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), 
+              new cljs.core.Keyword(null, "actual", "actual", 107306363), cljs.core._conj.call(null, cljs.core._conj.call(null, cljs.core.List.EMPTY, cljs.core.cons.call(null, new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), values__4639__auto___23771)), new cljs.core.Symbol(null, "not", "not", 1044554643, null)), new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            }
+          } catch (e23757) {
+            if (e23757 instanceof Error) {
+              var t__4676__auto___23773 = e23757;
+              cemerick.cljs.test.do_report.call(null, _test_ctx_23768__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb\n", 
+              "c\td"), cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], 
+              null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto___23773, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
+            } else {
+              throw e23757;
+            }
+          }
+        } catch (e23756) {
+          if (e23756 instanceof Error) {
+            var e__4620__auto___23774 = e23756;
+            if (cljs.core.truth_(async_QMARK___4619__auto___23769__$1)) {
+              cemerick.cljs.test.done_STAR_.call(null, _test_ctx_23768__$1, e__4620__auto___23774);
+            } else {
+              throw e__4620__auto___23774;
+            }
+          } else {
+            throw e23756;
+          }
+        }
+      } finally {
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23755_23770;
+      }
+      var _test_ctx__$1 = _test_ctx;
+      var async_QMARK___4619__auto____$1 = (new cljs.core.Keyword(null, "async", "async", 1050769601)).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null, (new cljs.core.Keyword(null, "test-name", "test-name", -675595913)).cljs$core$IFn$_invoke$arity$1(_test_ctx__$1)));
+      var _STAR_test_ctx_STAR_23758 = cemerick.cljs.test._STAR_test_ctx_STAR_;
       try {
         cemerick.cljs.test._STAR_test_ctx_STAR_ = cljs.core.truth_(async_QMARK___4619__auto____$1) ? null : _test_ctx__$1;
         try {
@@ -39699,48 +39989,48 @@ cluster_splitter.G__9393 = cljs.core.with_meta.call(null, cluster_splitter.G__93
               ;
             }
             return result__4640__auto__;
-          } catch (e9415) {
-            if (e9415 instanceof Error) {
-              var t__4676__auto__ = e9415;
+          } catch (e23760) {
+            if (e23760 instanceof Error) {
+              var t__4676__auto__ = e23760;
               return cemerick.cljs.test.do_report.call(null, _test_ctx__$1, new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null, "type", "type", 1174270348), new cljs.core.Keyword(null, "error", "error", -978969032), new cljs.core.Keyword(null, "expected", "expected", 1583670997), cljs.core.list(new cljs.core.Symbol("clojure.core", "\x3d", "clojure.core/\x3d", -1788080406, null), cljs.core.list(new cljs.core.Symbol(null, "str", "str", -1564826950, null), "Cluster 1\n", "a\tb", "\n\n", 
               "Cluster 2\n", "c\td"), cljs.core.list(new cljs.core.Symbol(null, "cluster-seq-\x3estr", "cluster-seq-\x3estr", 808666034, null), new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["a", "b"], null)], null), new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, 
               [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["c", "d"], null)], null)], null))), new cljs.core.Keyword(null, "actual", "actual", 107306363), t__4676__auto__, new cljs.core.Keyword(null, "message", "message", -406056002), null], null));
             } else {
-              throw e9415;
+              throw e23760;
             }
           }
-        } catch (e9414) {
-          if (e9414 instanceof Error) {
-            var e__4620__auto__ = e9414;
+        } catch (e23759) {
+          if (e23759 instanceof Error) {
+            var e__4620__auto__ = e23759;
             if (cljs.core.truth_(async_QMARK___4619__auto____$1)) {
               return cemerick.cljs.test.done_STAR_.call(null, _test_ctx__$1, e__4620__auto__);
             } else {
               throw e__4620__auto__;
             }
           } else {
-            throw e9414;
+            throw e23759;
           }
         }
       } finally {
-        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9413;
+        cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23758;
       }
-    } catch (e9406) {
-      if (e9406 instanceof Error) {
-        var e__4620__auto__ = e9406;
+    } catch (e23751) {
+      if (e23751 instanceof Error) {
+        var e__4620__auto__ = e23751;
         if (cljs.core.truth_(async_QMARK___4619__auto__)) {
           return cemerick.cljs.test.done_STAR_.call(null, _test_ctx, e__4620__auto__);
         } else {
           throw e__4620__auto__;
         }
       } else {
-        throw e9406;
+        throw e23751;
       }
     }
   } finally {
-    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_9405;
+    cemerick.cljs.test._STAR_test_ctx_STAR_ = _STAR_test_ctx_STAR_23750;
   }
 }], null)));
-cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__9393", "cluster-splitter/G__9393", -131095712, null), cluster_splitter.G__9393);
+cemerick.cljs.test.register_test_BANG_.call(null, new cljs.core.Symbol(null, "cluster-splitter", "cluster-splitter", 17325118, null), new cljs.core.Symbol("cluster-splitter", "G__23738", "cluster-splitter/G__23738", 325721225, null), cluster_splitter.G__23738);
 cluster_splitter.input_map__GT_cluster_html = function input_map__GT_cluster_html(input_map) {
   var machines_per_cluster = cluster_splitter.str__GT_int.call(null, 4, (new cljs.core.Keyword(null, "clusterSize", "clusterSize", 740554138)).cljs$core$IFn$_invoke$arity$1(input_map));
   var ip_seq = cluster_splitter.str__GT_ip_seq.call(null, (new cljs.core.Keyword(null, "ipText", "ipText", 1979046838)).cljs$core$IFn$_invoke$arity$1(input_map));
