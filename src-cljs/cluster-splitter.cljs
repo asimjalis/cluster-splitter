@@ -15,9 +15,11 @@
       ))
 
 (defn debug-with-repl []
+  "Fire up browser-side of browser REPL."
   (repl/connect "http://localhost:9000/repl"))
 
 (defn console-log [& args]
+  "Log to browser console."
   (.log js/console (apply str args)))
 
 (defn form->map [] 
@@ -30,6 +32,7 @@
     (apply merge)))
 
 (defn ^:export reload []
+  "Reload this JavaScript file into browser."
   (.reload js/location))
   
 
@@ -54,6 +57,7 @@
   1  [4 "1.001"])
   
 (defn html->output [html] 
+  "Set #output div's contents to HTML."
   (.html (js/$ "#output") html))
 
 (defn str->ip-seq
@@ -66,13 +70,17 @@
   ["1.1.1.1" "2.2.2.2"] ["hi 1.1.1.1 random text 2.2.2.2"])
 
 (defn ip-seq->machine-seq [ip-seq]
+  "Convert IP seq to machine seq. Machines are [Public-IP Private-IP]."
   (->> ip-seq (partition 2) (map vec)))
 
 (defn machine-seq->cluster-seq [machines-per-cluster machine-seq]
+  "Convert machine seq to cluster seq. Each cluster is a seq of
+  4 or 5 machines."
   (->> machine-seq (partition machines-per-cluster) (map vec)))
 
 (defn merge-cluster-seqs 
-  "Merge two cluster seqs. If either cluster seq is empty then returns the other unchanged."
+  "Merge two cluster seqs. If either cluster seq is empty then returns 
+  the other unchanged."
   [seq1 seq2]
   (cond (empty? seq1) seq2
         (empty? seq2) seq1
@@ -117,11 +125,11 @@
                          (machine-seq-prepend-names SMALL_MACHINE_NAMES))
   large-cluster-seq (->> large-machine-seq (machine-seq->cluster-seq 1))
   small-cluster-seq (->> small-machine-seq (machine-seq->cluster-seq 4))
-  cluster-seq (merge-cluster-seqs large-cluster-seq small-cluster-seq))
+  cluster-seq (merge-cluster-seqs small-cluster-seq large-cluster-seq ))
 
 (defn-test machine-seq->5-cluster-seq 
-  [[[L1 0 1] [S1 4 5]   [S2 6 7]   [S3 8 9]   [S4 10 11]]
-   [[L1 2 3] [S1 12 13] [S2 14 15] [S3 16 17] [S4 18 19]]]
+  [[ [S1 4 5]   [S2 6 7]   [S3 8 9]   [S4 10 11] [L1 0 1] ]
+   [ [S1 12 13] [S2 14 15] [S3 16 17] [S4 18 19] [L1 2 3] ]]
   [(->> 20 range ip-seq->machine-seq)])
 
 (defn-test machine-seq->4-cluster-seq 
@@ -134,8 +142,8 @@
      (machine-seq->4-cluster-seq machine-seq)))
 
 (defn-test machine-seq->4-or-5-cluster-seq
-  [ [         [S1 :a] [S2 :b] [S3 :c] [S4 :d] ] ] [ 4 [      [:a] [:b] [:c] [:d] ] ]
-  [ [ [L1 :x] [S1 :a] [S2 :b] [S3 :c] [S4 :d] ] ] [ 5 [ [:x] [:a] [:b] [:c] [:d] ] ]
+  [ [ [S1 :a] [S2 :b] [S3 :c] [S4 :d]         ] ] [ 4 [      [:a] [:b] [:c] [:d] ] ]
+  [ [ [S1 :a] [S2 :b] [S3 :c] [S4 :d] [L1 :x] ] ] [ 5 [ [:x] [:a] [:b] [:c] [:d] ] ]
   )
 
 (defn cluster-seq->str [cluster-seq]
